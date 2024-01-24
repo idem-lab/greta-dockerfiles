@@ -1,0 +1,14 @@
+Type: Compendium
+Package: Compendium title
+Title: Example analysis
+Version: 0.0.1
+Authors@R: 
+    person("Name", "Surname", , "email", role = c("aut", "cre"),
+           comment = c(ORCID = "https://orcid.org/XXXXX"))
+Description: This is an example analysis to demonstrate how to place packages needed for analysis in the description file to use the Dockerfile given.
+License: What license it uses
+Depends: 
+    dplyr
+Encoding: UTF-8
+Language: es
+LazyData: true
