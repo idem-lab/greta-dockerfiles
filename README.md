@@ -21,3 +21,14 @@ To use:
 If you want to run your docker container, use `docker run -p 8787:8787 -e DISABLE_AUTH=true YOUR_DOCKERHUB_USERNAME/PROJECT_NAME`, then navigate in your web browser to *localhost:8787*.
 
 After you're happy with the build, you may choose to push the image to dockerhub: `docker push YOUR_DOCKERHUB_USERNAME/PROJECT_NAME`
+
+======
+
+Running containers take a lot of space! When you're done, clean up with the following in the terminal:
+
+```
+docker container prune
+docker image prune -a 
+```
+
+
